@@ -9,7 +9,7 @@
     "start": "npm run dev",
     "build": "node build/build.js",
     "prodz": "npm run build; npm run build:lambda",
-    "prod": "npm run build;",
+    "prod": "npm run build:lambda",
     "lambda":"netlify-lambda serve src/lambda",
     "start:lambda": "netlify-lambda serve src/lambda",
     "build:lambda": "netlify-lambda build src/lambda"
